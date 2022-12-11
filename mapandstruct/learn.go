@@ -36,5 +36,27 @@ func Learn() {
 	fmt.Println(m2["b"])
 
 	// struct
+	type User struct {
+		id       int
+		username string
+		password string
+	}
 
+	john := User{
+		id:       1,
+		username: "John Doe",
+		password: "567890",
+	}
+
+	fmt.Println(john.username)
+	john.password = "1234567890"
+	fmt.Println(john.password)
+
+	users := []User{
+		{id:1,username: "mary",password: "1234"},
+		{id:2,username: "jay",password: "1234"},
+	}
+	for _, v := range users {
+		fmt.Println(v)
+	}
 }

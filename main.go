@@ -1,6 +1,6 @@
 package main
 
-import "github.com/naphatd1/gobasic/mapandstruct"
+import "github.com/naphatd1/gobasic/pointers"
 
 func main() {
 	// fmt.Println("Hello")
@@ -9,5 +9,6 @@ func main() {
 	// functions.Learn()
 	// flowcontrol.Learn()
 	// arrayandslices.Learn()
-	mapandstruct.Learn()
+	// mapandstruct.Learn()
+	pointers.Learn()
 }
