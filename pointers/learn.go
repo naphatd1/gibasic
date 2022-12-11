@@ -40,3 +40,7 @@ type student struct {
 func setName(std *student) {
 	std.name = "Ben"
 }
+
+// & ops get address
+// * get value วางหน้าตัวแปร
+// * type get value type วางหน้า type
